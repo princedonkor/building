@@ -1,0 +1,212 @@
+public class MyClass {
+
+	public static void main(String args[]) {
+		final int SIZE = 4;
+		//first part
+		for (int i = 1; i <= SIZE; i++) {
+		    for (int s=1; s<= SIZE*3; s++){
+		        System.out.print(" ");
+		    }
+		    for (int l=1; l<= 1; l++){
+		        System.out.print("||");
+		    }
+		    for (int s=1; s<= SIZE*3; s++){
+		        System.out.print(" ");
+		    }
+		    System.out.println();
+		    }
+		    
+		    
+		    
+		for (int i = 1; i <= SIZE; i++) {
+		    for (int s=1; s<= (SIZE-i)*3; s++){
+		        System.out.print(" ");
+		    }
+		    for (int l=1; l<= SIZE-2; l++){
+		        System.out.print("_");
+		    }
+		    for (int s=1; s<= SIZE-3; s++){
+		        System.out.print("/");
+		    }
+		    for (int d=1; d<= i-1; d++){
+		        System.out.print(":::");
+		    }
+		    for (int l=1; l<= 1; l++){
+		        System.out.print("||");
+		    }
+		    for (int d=1; d<= i-1; d++){
+		        System.out.print(":::");
+		    }
+		    for (int s=1; s<= SIZE-3; s++){
+		        System.out.print("\\");
+		    }
+		    for (int l=1; l<= SIZE-2; l++){
+		        System.out.print("_");
+		    }
+		    for (int s=1; s<= (SIZE-i)*3; s++){
+		        System.out.print(" ");
+		    }
+		    
+		    
+		    System.out.println();
+		    }
+		    
+		
+		    
+		    
+		    
+		    
+		    
+		    
+		 //first half middle line
+		for (int i = 1; i <= 1; i++) {
+		    for (int l=1; l<=1; l++){
+		        System.out.print("|");
+		    }
+		    for (int s=1; s<= (SIZE*3)+1; s++){
+		        System.out.print("\"");
+		    }
+		    for (int s=1; s<= 11; s++){
+		        System.out.print("\"");
+		    }
+		    
+		    for (int l=1; l<=1; l++){
+		        System.out.print("|");
+		    }
+		    System.out.println();
+		}
+		
+		  //botton first last half 
+		  
+		for (int i = 1; i <= SIZE; i++) {
+		    for (int s=1; s<=i-1; s++){
+		        System.out.print("  ");
+		    }
+		    for (int t=1; t<= SIZE-3; t++){
+		        System.out.print("\\");
+		    }
+		    for (int u=1; u<= SIZE-3; u++){
+		        System.out.print("_");
+		    }
+		    for (int ls=1; ls<=(SIZE+2)-i; ls++){
+		        System.out.print("/\\");
+		    }
+		    for (int ls=1; ls<=(SIZE+3)-i; ls++){
+		        System.out.print("/\\");
+		    }
+		    for (int u=1; u<= SIZE-3; u++){
+		        System.out.print("_");
+		    }
+		    for (int t=1; t<= SIZE-3; t++){
+		        System.out.print("/");
+		    }
+		    for (int s=1; s<=i-1; s++){
+		        System.out.print(" ");
+		    }
+		    System.out.println();
+		}  
+		
+		for (int i = 1; i <= SIZE; i++) {
+		    for (int s=1; s<= SIZE*3; s++){
+		        System.out.print(" ");
+		    }
+		    for (int l=1; l<= 1; l++){
+		        System.out.print("||");
+		    }
+		    for (int s=1; s<= SIZE*3; s++){
+		        System.out.print(" ");
+		    }
+		    System.out.println();
+		    }
+		
+		      
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    //middle
+		for (int i = 1; i <= SIZE*4; i++) {
+		    for (int s=1; s<= SIZE*2+1; s++){
+		        System.out.print(" ");
+		    }
+		    for (int l=1; l<= 1; l++){
+		        System.out.print("|");
+		    }
+		    for (int s=1; s<= SIZE-2; s++){
+		        System.out.print("&");
+		    }
+		    for (int l=1; l<= 1; l++){
+		        System.out.print("||");
+		    }
+		    for (int s=1; s<= SIZE-2; s++){
+		        System.out.print("&");
+		    }
+		    for (int l=1; l<= 1; l++){
+		        System.out.print("|");
+		    }
+		    for (int s=1; s<= (SIZE*6)+2; s++){
+		        System.out.print(" ");
+		    }
+		    
+		    System.out.println();
+		    }
+		    
+		
+		  //botton half 
+		  for (int i = 1; i <= SIZE; i++) {
+		    for (int s=1; s<= (SIZE-i)*3; s++){
+		        System.out.print(" ");
+		    }
+		    for (int l=1; l<= SIZE-2; l++){
+		        System.out.print("_");
+		    }
+		    for (int s=1; s<= SIZE-3; s++){
+		        System.out.print("/");
+		    }
+		    for (int d=1; d<= i-1; d++){
+		        System.out.print(":::");
+		    }
+		    for (int l=1; l<= 1; l++){
+		        System.out.print("||");
+		    }
+		    for (int d=1; d<= i-1; d++){
+		        System.out.print(":::");
+		    }
+		    for (int s=1; s<= SIZE-3; s++){
+		        System.out.print("\\");
+		    }
+		    for (int l=1; l<= SIZE-2; l++){
+		        System.out.print("_");
+		    }
+		    for (int s=1; s<= (SIZE-i)*3; s++){
+		        System.out.print(" ");
+		    }
+		    
+		    
+		    System.out.println();
+		    }
+		
+		for (int i = 1; i <= 1; i++) {
+		    for (int l=1; l<=1; l++){
+		        System.out.print("|");
+		    }
+		    for (int s=1; s<= (SIZE*3)+1; s++){
+		        System.out.print("\"");
+		    }
+		    for (int s=1; s<= 11; s++){
+		        System.out.print("\"");
+		    }
+		    
+		    for (int l=1; l<=1; l++){
+		        System.out.print("|");
+		    }
+		    System.out.println();
+		}  
+		    
+		    
+	}
+}
